@@ -2,6 +2,7 @@
 
 mod ownership; 
 mod functions;
+mod stretch_goal1;
 
 fn main() {
     
@@ -41,4 +42,9 @@ fn main() {
     println!("running exercise D");
 
     functions::run();
+
+    //========================================
+    println!("Running the stretch goal!");
+
+    stretch_goal1::run();
 }

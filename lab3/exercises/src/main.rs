@@ -1,5 +1,6 @@
 mod traits;
 mod custom_error;
+mod stretch_goal3;
 
 #[derive(Debug, Clone)]
 pub struct BankAccount {
@@ -62,5 +63,9 @@ fn main() {
    
     println!("running exercise C------------");
     custom_error::run();
+
+    //----------------------------------
+    println!("Running the stretch goal-------------");
+    stretch_goal3::run();
 
 }

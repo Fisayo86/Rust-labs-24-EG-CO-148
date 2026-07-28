@@ -2,6 +2,7 @@ use std::fmt::Display;
 
 mod geometry;
 mod utils;
+mod stretch_goal5;
 
 use geometry::shapes::Polygon;
 use geometry::Point;
@@ -131,4 +132,8 @@ fn main() {
     // TODO 3 & TODO 4 outputs
     println!("Perimeter: {:.2}", square.perimeter());
     println!("Is closed: {}", square.is_closed());
+
+    //Stretch_goal5---------
+    println!("Printing stretch goal-------");
+    stretch_goal5::run();
 }

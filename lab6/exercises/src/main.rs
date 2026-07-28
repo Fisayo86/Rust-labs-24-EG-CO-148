@@ -2,6 +2,7 @@ mod arc;
 mod channels;
 mod file;
 mod async_await;
+mod stretch_goal6;
 
 use std::thread;
 use std::time::Duration;
@@ -45,7 +46,7 @@ async fn main() {
     println!("Total sum of 1..=1000 across 4 threads (TODO 1): {}\n", total_sum);
 
     // --- CALLING OTHER EXERCISES ---
-    arcs::run();
+    arc::run();
     println!();
 
     channels::run();
@@ -55,4 +56,8 @@ async fn main() {
     println!();
 
     async_await::run().await;
+
+    //------ stretch goal-------
+    println!("\n Running exercise 6");
+    stretch_goal6::run();
 }

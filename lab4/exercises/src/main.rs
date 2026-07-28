@@ -1,6 +1,7 @@
 mod hashmap;
 mod closures_iterators;
 mod custom_iterator;
+mod stretch_goal4;
 
 pub fn stats(data: &[f64]) -> (f64, f64, f64) {
     let sum: f64 = data.iter().sum();
@@ -70,4 +71,9 @@ fn main() {
     // --- Calling Exercise D ---
     println!("\n--- Exercise D: Custom Iterator ---");
     custom_iterator::run();
+
+    //------Stretch goal--------
+    println!("\n---- Running the stretch goal----");
+
+    stretch_goal4::run();
 }

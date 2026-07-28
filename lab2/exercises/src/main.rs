@@ -4,6 +4,8 @@ mod option;
 
 mod fizzbuzz;
 
+mod stretch_goal2;
+
 fn main() {
     // -- if as an expression ----------------------------------
     let number = 7;
@@ -52,6 +54,11 @@ fn main() {
     println!("\n--- Running Exercise D ---");
     
     fizzbuzz::run();
+
+    //--------------------------------------------------
+    println!("\n --- Running the stretch goal");
+
+    stretch_goal2::run();
     
 }
 
