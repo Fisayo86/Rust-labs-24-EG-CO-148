@@ -10,3 +10,8 @@ This directory contains the solutions for **Lab Session 4**, exploring Rust stan
   Implements a word frequency counter utilizing `HashMap` entry APIs (`entry().or_insert()`).
 * **Exercise C — Custom Iterators & Functional Adapters:** 
   Uses iterator chain adapters (`map`, `filter`, `fold`, `collect`) for concise collection processing.
+
+
+  RESULTS
+  <img width="635" height="539" alt="Screenshot 2026-07-30 214105" src="https://github.com/user-attachments/assets/75b9877f-3cfd-41c3-a425-f850ecff3a06" />
+<img width="683" height="577" alt="Screenshot 2026-07-30 214051" src="https://github.com/user-attachments/assets/c0c95f5e-5b15-4a00-bc4f-4ea388f608d2" />
